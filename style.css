@@ -1,16 +1,13 @@
 #container > div{
-  width: 200px;
-  height: 200px;
   background-color: orange;
   padding: 10px;
   margin: 10px;
+  font-size: 18px;
 }
 #container{
-  display: flex;
-  flex-wrap: wrap;
   display: grid;
   grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-row-gap: 10px;
   grid-template-columns: 200px 200px auto;
 }
 @media (min-width:901px) {
