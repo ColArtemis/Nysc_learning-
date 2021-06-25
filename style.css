@@ -1,0 +1,76 @@
+#container > div{
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  padding: 10px;
+  margin: 10px;
+}
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 200px 200px auto;
+}
+@media (min-width:901px) {
+  body{
+    background-color: skyblue;
+    font-size: 100px:
+  }
+  div{
+    background-color: springgreen;
+  }
+}
+@media (max-width:900px) {
+  body{
+    background-color: navy;
+    font-size: 20px;
+  }
+  div{
+    background-color: #f2bb66;
+  }
+}
+h1 {
+  color: blue;
+  text-align: center;
+  border: 2px dotted #bcc6cc;
+}
+h2{
+  color: springgreen;
+  text-align: left;
+}
+input{
+  margin-left: 50%;
+  font-size: 20px;
+  color: pink;
+  border: 2px solid purple;
+}
+table{
+  font-family: monospace;
+  border: 1px solid black;
+  font-size: 20px;
+  border-collapse: collapse;
+  text-align: center;
+}
+.sub{
+  color: orange;
+  margin: 3px 3px 3px -5px;
+  border: 1px solid black;
+}
+.sub:hover{
+  background-color: springgreen;
+}
+td::selection{
+  background-color: green;
+}
+.tab{
+  color: orange;
+  margin: 3px;
+  border: 1px solid black;
+  font-family: arial;
+}
+tr, td, th{
+  border: 1px solid black;
+  padding: 0 10px 0 10px;
+}
